@@ -24,6 +24,10 @@ public class Service {
     Account deleteAccount(String accountNumber) {
         return accounts.remove(accountNumber);
     }
+    
+    Account retrieveAccount(String accountNumber) {
+        return accounts.get(accountNumber);
+    }
 
     @Override
     public boolean equals(Object o) {
