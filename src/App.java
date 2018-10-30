@@ -3,7 +3,7 @@ public class App {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hello to the standard out");
+		System.out.println("Hello branch to the standard out");
 	}
 
 }
